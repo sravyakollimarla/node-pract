@@ -1,12 +1,20 @@
 {
   "name": "node-pract",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node src/app.js"
+},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-per:sravyakollimarla/node-pract.git"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
